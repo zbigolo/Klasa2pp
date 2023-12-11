@@ -4,7 +4,15 @@ public class Sample01_Zmienne {
 
     public static void main(String[] args) {
 
-        int mojaLiczba;
+//        rep'tgkotreptr4[kt[rtrtjre
+
+        /*
+        *
+        *
+        * */
+
+
+       int mojaLiczba;
         char testowyZnak;
 
         mojaLiczba = 100;
