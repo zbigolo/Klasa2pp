@@ -1,35 +1,33 @@
 package Podstawy;
 
+
 import java.util.Scanner;
 
 public class Sample2_Wypisywanie_I_Wczytywanie {
+
     public static void main(String[] args) {
-    /*
-        System.out.println("Witam");
-        int liczba = 10;
-        System.out.println(liczba);
 
-        System.out.println("Moja liczba "+liczba);
+        Scanner skaner = new Scanner(System.in);
+/*
+        System.out.print("Podaj liczbe calkowita: ");
+        int liiczba = skaner.nextInt();
 
-        System.out.print("BLA bla bla " + liczba + "to koniec ");
-        System.out.print("\n Czy to nowa linia");
+        System.out.println("Podaj liczbe rzeczywista");
+        double rzeczywista = skaner.nextDouble();
+
+        System.out.println("Podana liczba całkowita to: " + liiczba);
+
+
+        System.out.println("Podaj wyraz: ");
+        String wyraz = skaner.next();
+
+        System.out.println("Twoj wyraz to: " + wyraz);
 */
 
-        /*
-                Wczytywanie
-         */
-
-        Scanner scan = new Scanner(System.in);
-
-        System.out.print("Podaj dowolną liczbe całkowitą:  ");
-        //int liczba = scan.nextInt();
-
-     //   System.out.println("Podano  " + liczba);
-
-        System.out.print("Podaj wyraz: ");
-        String napis1 = scan.nextLine();
-
-        System.out.println("\n" + napis1);
-
+        System.out.println("Podaj zdanie ");
+        String zdanie = skaner.nextLine();
+        System.out.println("Twoj wyraz to: " + zdanie);
     }
+
+
 }
