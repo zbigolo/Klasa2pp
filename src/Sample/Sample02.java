@@ -13,16 +13,14 @@ public class Sample02 {
         System.out.println("Podaj dowolna liczbe calkowita: ");
         int number = scanner.nextInt();
 
-        int tmp = number;
-
         int digit;
         int suma = 0;
 
-        while(tmp > 0){
+        while(number > 0){
 
-            digit = tmp % 10;
+            digit = number % 10;
             suma += digit;
-            tmp /= 10;
+            number /= 10;
         }
 
         System.out.println("Suma cyfr wynosi "+suma);
