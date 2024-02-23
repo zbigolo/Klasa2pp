@@ -1,5 +1,7 @@
 package Podstawy;
 
+import java.util.ArrayList;
+
 public class Sample04_InstrukcjeIteracyjne {
 
     public static void main(String[] args) {
@@ -14,13 +16,30 @@ public class Sample04_InstrukcjeIteracyjne {
             System.out.println(cars[i]);
         }
 
+        ArrayList<Integer> tab = new ArrayList<>();
+        tab.add(2);
+        tab.add(0);
+        tab.add(2);
+        tab.add(4);
+
+        for(int liczba: tab){
+            System.out.print(liczba+ " ");
+        }
+
+    
+    //    for (;;) System.out.println("1");
+
+
 
         int suma = 0;
         int ilosc = 0;
-        for (int i = 1; i <= 100; i++) {
+        for (int i = 100; i > 0; i--) {
             suma += i;
-            suma = suma + i;
+            ilosc = ilosc + i;
 
         }
+
+
+
     }
 }
