@@ -5,8 +5,10 @@ import java.util.Scanner;
 /*
         Wypisz w kolumnie wszystkie cyfry podanej z klawiatury liczby całkowitej
  */
-public class Sample01 {
 
+
+@SuppressWarnings("CheckStyle")
+public class Sample01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
