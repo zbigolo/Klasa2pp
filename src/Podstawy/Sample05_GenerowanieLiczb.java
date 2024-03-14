@@ -1,5 +1,6 @@
 package Podstawy;
 
+
 import java.util.Random;
 
 public class Sample05_GenerowanieLiczb {
@@ -7,7 +8,7 @@ public class Sample05_GenerowanieLiczb {
     public static void main(String[] args) {
 
         Random generator = new Random();
-
+/*
         int granicadolna = 33;
         int granicagorna = 126;
         for (int i = 1; i < 20; i++) {
@@ -17,14 +18,15 @@ public class Sample05_GenerowanieLiczb {
             System.out.println((char)liczba + "  " + (char)liczba2 );
         }
 
+*/
 
-
-        for (int i = 0; i < 20; i++) {
-            int bok1 = generator.nextInt(1000);
-            int bok2 = generator.nextInt(1000);
-            int bok3 = generator.nextInt(1000);
+        for (int i = 0; i < 200; i++) {
+            int bok1 = generator.nextInt(100);
+            int bok2 = generator.nextInt(100);
+            int bok3 = generator.nextInt(100);
 
             System.out.println(bok1 + "  " + bok2 + "  " + bok3);
         }
+
     }
 }
