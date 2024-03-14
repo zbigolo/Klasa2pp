@@ -59,6 +59,7 @@ public class Sample07_ArrayList {
 
         tab.addAll(tablica);
 
+
         System.out.println("Tablica tab: \n" + tab );
 
         //F. Szukanie elementu
