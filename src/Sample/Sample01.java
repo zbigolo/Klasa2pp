@@ -7,7 +7,6 @@ import java.util.Scanner;
  */
 
 
-@SuppressWarnings("CheckStyle")
 public class Sample01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
