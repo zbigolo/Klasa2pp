@@ -1,6 +1,14 @@
 package DebugowanieAplikacji;
 
-//  https://pythontutor.com/visualize.html#mode=edit
+/*
+ https://pythontutor.com/visualize.html#mode=edit
+
+ https://cscircles.cemc.uwaterloo.ca/java_visualize/
+
+Dodatek : Java Visualizer
+
+ */
+
 
 public class Samples1 {
 
