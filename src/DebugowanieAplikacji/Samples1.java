@@ -10,11 +10,16 @@ Dodatek : Java Visualizer
  */
 
 
+import java.util.Scanner;
+
 public class Samples1 {
 
     public static void main(String[] args) {
         int ilosc = 5;
 
+
+        Scanner scanner = new Scanner(System.in);
+        int ile = scanner.nextInt();
         String[] result = new String[ilosc];
         int[] liczba = {12, 45, 5, 55, 9};
         for (int i = 0; i < ilosc; i++) {
