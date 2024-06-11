@@ -8,7 +8,7 @@ import java.util.Scanner;
 
         @exeption  nazwa wyjątku i opis
 
-        @param nazwa parametr i opis
+
         @return opis wartości zwracanej
         @since data wprowadzenia i numer werssji
 
