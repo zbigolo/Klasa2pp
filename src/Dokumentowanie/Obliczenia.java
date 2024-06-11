@@ -54,10 +54,20 @@ public class Obliczenia {
      * Jest to metoda wypisująca liczbę rzeczywistą na ekranie
      *
      * @param liczba is the floating point number
+     *
      */
     void printNumber(double liczba) {
 
         System.out.println(liczba);
+    }
+
+    /**
+     * Nic nie robi
+     * @deprecated  java 23
+     * @return  zwraca tekst "Nic nie robisz"
+     */
+    public String NicNieRobi(){
+        return "Nic nie robisz";
     }
 
     /**

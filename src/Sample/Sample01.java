@@ -2,9 +2,19 @@ package Sample;
 
 import java.util.Scanner;
 
-/*
-        Wypisz w kolumnie wszystkie cyfry podanej z klawiatury liczby całkowitej
+/**
+        @author Zbigniew Gołębiewski
+        @deprecated  opis
+
+        @exeption  nazwa wyjątku i opis
+
+        @param nazwa parametr i opis
+        @return opis wartości zwracanej
+        @since data wprowadzenia i numer werssji
+
+        @version numer wersji
  */
+
 
 
 public class Sample01 {
